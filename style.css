@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 200vh;
+    background-color: #645775;
+}
+
+@media  screen and (max-width: 1000px) {
+    .container{
+        width: 100%;
+        height: 390vh;
+        background-color: #548757;
+    }
+}
+.header{
+    width: 100%;
+    height: 8vh;
+    background-color: red;
+}
+.header ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.header ul > li{
+    padding: 7px;
+    align-items: center;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: 600;
+}
+.header ul > li:hover{
+    background-color: gray;
+}
+
+/* Content start */
+.content{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    width: 400px;
+    height: 300px;
+    background-color: blue;
+    margin-top: 2vh;
+}
+.box > .top{
+    width: 100%;
+    height: 80%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box > .left {
+    width: 100%;
+    height: 20%;
+    background-color: red;
+    display: flex;
+}
+h4{
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: 600;
+}
+.circle{
+    width: 100px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 50%;
+}
+.play{
+    width: 90px;
+    height: 90px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 5px solid rgb(76, 74, 74);
+    display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+.fa-sharp{
+   font-size: xx-large;
+}
+/* Content end */
